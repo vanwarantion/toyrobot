@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Settings:
 
 ROBOT_DIRECTION_NAMES = [
@@ -12,6 +15,9 @@ TABLE_DIMENSIONS = (5, 5)
 import sys # For args and reading from stdin
 
 class Robot():
+    """
+    Toy Robot Object
+    """
     current_xy = [None, None]
     current_f = None
     _placed = False
